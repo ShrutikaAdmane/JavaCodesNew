@@ -1,0 +1,20 @@
+public void numberSumInString() {
+		String s ="AB12";
+		int num1= 1234567890;
+		//int temp=0;
+		int a = 0;
+		String string = String.valueOf(num1);
+		System.out.println(string);
+		
+		for (int j=0;j<string.length();j++) {
+			for(int k=0;k<s.length();k++) {
+				if (string.charAt(j)==s.charAt(k)) {
+					char ch= string.charAt(j);
+					 a= Character.getNumericValue(ch);
+					System.out.println(ch);
+					System.out.println(a);
+				}}
+			//System.out.println(a);
+			//temp=temp+a;
+			//System.out.println(temp);
+		}}
